@@ -1,0 +1,69 @@
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa';font-size: 22px;
+}
+
+.container
+{
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hexcoder
+{
+
+  text-align: center;
+}
+
+.hexcoder h1
+{
+  font-size: 2rem;
+  text-transform: uppercase;
+  animation: colorchange 5s infinite alternate;
+ 
+ 
+}
+
+@keyframes colorchange {
+  0%{
+    color: violet;
+  }
+
+  20%{
+    color: indigo;
+  }
+
+  40%{
+    color: blue;
+  }
+
+  60%{
+    color: green;
+  }
+
+  80%{
+    color: yellow;
+  }
+
+  100%
+  {
+    color:red;
+  }
+}
+.hexcoder h2
+{
+  margin: 50px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
